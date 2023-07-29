@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-transform: capitalize;
+	font-family: 'Poppins', sans-serif;
+}
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: #8a6cff;
+}
+.wrapper {
+	width: 450px;
+	background-color: #fff;
+	padding: 10px;
+	border-radius: 10px;
+	margin: 5px;
+	box-shadow: rgba(0, 0, 0, 0.539) 0px 8px 24px;
+}
+.gradient-box {
+	width: 100%;
+	height: 220px;
+	background-image: linear-gradient(to top right, #5665e9, #a271f8);
+	border-radius: 10px;
+}
+.wrapper .row {
+	display: flex;
+	margin: 20px 0;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.options p {
+	font-size: 1.12rem;
+	margin-bottom: 8px;
+}
+.options .select-box {
+	border-radius: 5px;
+	padding: 10px 15px;
+	border: 1px solid #aaa;
+	width: 100%;
+}
+.select-box select {
+	border: none;
+	outline: none;
+	background: none;
+	font-size: 1.12rem;
+}
+.options .colors {
+	width: 70%;
+	margin-left: 10px;
+}
+.colors input {
+	height: 41px;
+	width: calc(100% / 2 - 20px);
+	outline: none;
+	border: none;
+}
+.colors input:last-child {
+	margin-left: 6px;
+}
+.wrapper textarea {
+	width: 100%;
+	padding: 10px 15px;
+	resize: none;
+	color: #333;
+	border-radius: 5px;
+	outline: none;
+	border: 1px solid #ccc;
+	font-size: 1.2rem;
+	letter-spacing: 2px;
+}
+.buttons button {
+	padding: 15px 0;
+	width: 100%;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	margin: 10px 10px -15px;
+	font-size: 1.09rem;
+	cursor: pointer;
+	color: #fff;
+}
+.buttons .refresh {
+	background-color: #6c757d;
+}
+.buttons .copy {
+	background-color: #8a6cff;
+}
